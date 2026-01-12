@@ -23,10 +23,10 @@ export function About({ t }: AboutProps) {
                 <Code2 className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
-                Backend Focus
+                {t.about.cards.backendTitle}
               </h3>
               <p className="text-gray-400 text-sm">
-                Specialized in .NET ecosystem and API development
+                {t.about.cards.backendDesc}
               </p>
             </div>
 
@@ -35,10 +35,10 @@ export function About({ t }: AboutProps) {
                 <Sparkles className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
-                Clean Code
+                {t.about.cards.codeTitle}
               </h3>
               <p className="text-gray-400 text-sm">
-                Committed to maintainable and scalable architecture
+                {t.about.cards.codeDesc}
               </p>
             </div>
 
@@ -47,10 +47,10 @@ export function About({ t }: AboutProps) {
                 <Rocket className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
-                Always Learning
+                {t.about.cards.learningTitle}
               </h3>
               <p className="text-gray-400 text-sm">
-                Expanding skills in React, AWS, and Docker
+                {t.about.cards.learningDesc}
               </p>
             </div>
           </div>

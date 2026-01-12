@@ -22,6 +22,14 @@ export interface Translations {
   about: {
     title: string;
     content: string[];
+    cards: {
+      backendTitle: string;
+      backendDesc: string;
+      codeTitle: string;
+      codeDesc: string;
+      learningTitle: string;
+      learningDesc: string;
+    };
   };
   technologies: {
     title: string;
@@ -83,6 +91,14 @@ export const translations: Record<Language, Translations> = {
         'I specialize in building RESTful APIs using ASP.NET Core, Entity Framework Core, and implementing clean architecture patterns with tools like Ardalis Clean Architecture, FastEndpoints, and FluentValidation.',
         'Currently, I am continuing to gain experience with React on the frontend, AWS cloud technologies, and Docker containerization while actively working on real projects and strengthening my skills in these areas.',
       ],
+      cards: {
+        backendTitle: 'Backend Focus',
+        backendDesc: 'Specialized in .NET ecosystem and API development',
+        codeTitle: 'Clean Code',
+        codeDesc: 'Committed to maintainable and scalable architecture',
+        learningTitle: 'Always Learning',
+        learningDesc: 'Expanding skills in React, AWS, and Docker',
+      },
     },
     technologies: {
       title: 'Technologies I Work With',
@@ -152,7 +168,7 @@ export const translations: Record<Language, Translations> = {
       contactBtn: 'Mənimlə Əlaqə Saxla',
       stats: {
         projects: 'Proyektlər',
-        liveSystems: 'Canlı Sistemlər',
+        liveSystems: 'Canlı Layihələr',
         technologies: 'Texnologiyalar',
       },
     },
@@ -163,13 +179,21 @@ export const translations: Record<Language, Translations> = {
         'ASP.NET Core, Entity Framework Core istifadə edərək RESTful API-lər yaratmaqda, Ardalis Clean Architecture, FastEndpoints və FluentValidation kimi alətlərlə təmiz arxitektura nümunələrini tətbiq etməkdə ixtisaslaşmışam.',
         'Hazırda real proyektlər üzərində aktiv şəkildə işləyərək frontend-də React, AWS cloud texnologiyaları və Docker konteynerləşdirməsi sahələrində təcrübə qazanmağa və bacarıqlarımı gücləndirməyə davam edirəm.',
       ],
+      cards: {
+        backendTitle: 'Backend Fokus',
+        backendDesc: '.NET ekosistemində ixtisaslaşmış və API inkişafı',
+        codeTitle: 'Təmiz Kod',
+        codeDesc: 'Davamlı və miqyaslanabilir arxitekturaya sadiq',
+        learningTitle: 'Həmişə Öyrənən',
+        learningDesc: 'React, AWS və Docker-də bacarıqları genişləndirmə',
+      },
     },
     technologies: {
       title: 'İstifadə Etdiyim Texnologiyalar',
       backend: 'Backend',
       databases: 'Verilənlər Bazası',
       frontend: 'Frontend',
-      devops: 'Still Learning',
+      devops: 'Hələ Öyrənirəm',
     },
     projects: {
       title: 'Layihələr',
@@ -212,7 +236,7 @@ export const translations: Record<Language, Translations> = {
       sendBtn: 'Mesaj Göndər',
     },
     footer: {
-      role: 'Backend Developer',
+      role: 'Backend Developer Mütəxəssisi',
       rights: 'Bütün hüquqlar qorunur',
     },
   },
