@@ -47,6 +47,14 @@ export interface Translations {
       tags: string[];
     }[];
   };
+  liveProjects: {
+    title: string;
+    items: {
+      name: string;
+      description: string;
+      tags: string[];
+    }[];
+  };
   contact: {
     title: string;
     emailLabel: string;
@@ -137,6 +145,26 @@ export const translations: Record<Language, Translations> = {
         },
       ],
     },
+    liveProjects: {
+      title: 'Live Projects',
+      items: [
+        {
+          name: 'qutabxana.az',
+          description: 'Fast food website is a platform that provides information about the preparation, varieties, and presentation of fast food, a popular part of Azerbaijani cuisine.',
+          tags: ['ASP.NET Core', 'MSSQL', 'Next.js'],
+        },
+        {
+          name: 'adal.az',
+          description: 'This website represents a professional IT team providing innovative and reliable technology solutions for businesses.',
+          tags: ['ASP.NET Core', 'MSSQL', 'Next.js'],
+        },
+        {
+          name: 'houselab.az',
+          description: 'This platform is a comprehensive real estate marketplace designed for buying, selling, and renting properties.',
+          tags: ['ASP.NET Core', 'Entity Framework Core', 'MSSQL'],
+        },
+      ],
+    },
     contact: {
       title: "Let's Work Together",
       emailLabel: 'Email',
@@ -222,6 +250,26 @@ export const translations: Record<Language, Translations> = {
           description:
             'Komanda əməkdaşlığı xüsusiyyətləri və avtomatlaşdırılmış iş axınları ilə proyekt və tapşırıq izləmə sistemi',
           tags: ['.NET', 'Entity Framework', 'FluentValidation', 'Swagger'],
+        },
+      ],
+    },
+    liveProjects: {
+      title: 'Canlı Layihələr',
+      items: [
+        {
+          name: 'qutabxana.az',
+          description: 'Azərbaycanlı təbəətin populyar yeməyi olan fast food-un hazırlanması, növləri və təqdimatı haqqında məlumat verən platformadır.',
+          tags: ['ASP.NET Core', 'MSSQL', 'Next.js'],
+        },
+        {
+          name: 'adal.az',
+          description: 'Bu veb sayt işlər üçün innovativ və etibarlı texnoloji həllər təqdim edən peşəkar İT komandanı təmsil edir.',
+          tags: ['ASP.NET Core', 'MSSQL', 'Next.js'],
+        },
+        {
+          name: 'houselab.az',
+          description: 'Bu platforma mülk almaq, satmaq və kirayə vermək üçün nəzərdə tutulmuş kompleks daşınmaz əmlak bazarıdır.',
+          tags: ['ASP.NET Core', 'Entity Framework Core', 'MSSQL'],
         },
       ],
     },
