@@ -13,7 +13,7 @@ function App() {
   const t = translations[language];
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-900 overflow-x-hidden w-full">
       <Header language={language} setLanguage={setLanguage} t={t} />
       <Hero t={t} />
       <About t={t} />

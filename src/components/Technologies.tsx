@@ -57,7 +57,7 @@ export function Technologies({ t }: TechnologiesProps) {
 
   return (
     <section id="technologies" className="py-20 bg-gradient-to-b from-gray-900 to-gray-800">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             {t.technologies.title}
@@ -65,7 +65,7 @@ export function Technologies({ t }: TechnologiesProps) {
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 max-w-6xl mx-auto">
           {techCategories.map((category, index) => {
             const Icon = category.icon;
             return (
